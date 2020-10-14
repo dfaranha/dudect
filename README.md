@@ -13,10 +13,12 @@ The approach is described in our paper:
 
 Requirements
 ------------
-A C compiler.
+A C compiler; the kernel module built and loaded.
 
 Quick start
 -----------
+To build the kernel module, run `make` inside `enable_arm_pmu` and run `load-module`.
+
 To build, run `make`. This builds a bunch of binaries named `dudect_*`.
 
 Typical output
